@@ -28,7 +28,7 @@ namespace Proje_Hastane
         {
             Lbltc.Text = TCnumara;
 
-            //AD SOYAD
+            //AD SOYAD  hhhh
             SqlConnection conn = new SqlConnection(bgl1.Adres);
             conn.Open();
             SqlCommand komut1 = new SqlCommand("Select SekreterAdSoyad from Tbl_Sekreter Where SekreterTC=@p1", conn);
